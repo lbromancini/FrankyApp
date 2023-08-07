@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.controle.ValorJuntasFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posição angular da base em graus" />
+
+            <EditText
+                android:id="@+id/etBasePos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                tools:text="Ex: 20" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posição angular da junta 2 em graus" />
+
+            <EditText
+                android:id="@+id/etJunta2Pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Ex: 30" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posição angular da junta 3 em graus" />
+
+            <EditText
+                android:id="@+id/etJunta3Pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Ex: 40" />
+
+            <Button
+                android:id="@+id/btRealizarMov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_realizar_movimento" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -7,6 +7,11 @@
         android:title="@string/title_home" />
 
     <item
+        android:id="@+id/navigation_valor_juntas"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/title_valor_juntas" />
+
+    <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_dashboard" />

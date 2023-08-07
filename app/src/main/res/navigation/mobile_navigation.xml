@@ -22,4 +22,9 @@
         android:name="br.dev.lbromancini.mobile.frankyapp.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_valor_juntas"
+        android:name="br.dev.lbromancini.mobile.frankyapp.ui.controle.ValorJuntasFragment"
+        android:label="@string/title_valor_juntas"
+        tools:layout="@layout/fragment_valor_juntas" />
 </navigation>
