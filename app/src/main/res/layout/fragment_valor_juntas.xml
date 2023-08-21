@@ -15,18 +15,31 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome do ponto" />
+
+            <EditText
+                android:id="@+id/etNomePonto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Ex: ponto1" />
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Posição angular da base em graus" />
 
             <EditText
-                android:id="@+id/etBasePos"
+                android:id="@+id/ndAngulo_junta1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                tools:text="Ex: 20" />
+                android:inputType="numberDecimal" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -35,12 +48,11 @@
                 android:text="Posição angular da junta 2 em graus" />
 
             <EditText
-                android:id="@+id/etJunta2Pos"
+                android:id="@+id/ndAngulo_junta2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Ex: 30" />
+                android:inputType="numberDecimal" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -49,12 +61,11 @@
                 android:text="Posição angular da junta 3 em graus" />
 
             <EditText
-                android:id="@+id/etJunta3Pos"
+                android:id="@+id/ndAngulo_junta3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Ex: 40" />
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/btRealizarMov"
