@@ -44,6 +44,7 @@ public class ValorJuntasFragment extends Fragment implements View.OnClickListene
         return this.view;
 
     }
+    // aaaaaa
 
     @Override
     public void onClick(View view) {
