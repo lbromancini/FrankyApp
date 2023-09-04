@@ -3,7 +3,7 @@ package br.dev.lbromancini.mobile.frankyapp.model;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Juntas {
+public class Movimentacao {
 
     // atributos
     private String nomePonto;
@@ -21,7 +21,7 @@ public class Juntas {
     public int getAngulo_junta3() {return angulo_junta3;}
     public void setAngulo_junta3(int angulo_junta3) {this.angulo_junta3 = angulo_junta3;}
 
-    public Juntas(JSONObject jp) {
+    public Movimentacao(JSONObject jp) {
         try {
             this.setNomePonto((String) jp.get("nomePonto"));
 
@@ -38,7 +38,7 @@ public class Juntas {
         }
     }
 
-    public Juntas() {
+    public Movimentacao() {
         this.setNomePonto("");
         this.setAngulo_junta1(0);
         this.setAngulo_junta2(0);
