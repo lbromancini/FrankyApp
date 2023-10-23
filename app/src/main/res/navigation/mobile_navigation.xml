@@ -27,4 +27,11 @@
         android:name="br.dev.lbromancini.mobile.frankyapp.ui.controle.ValorJuntasFragment"
         android:label="@string/title_valor_juntas"
         tools:layout="@layout/fragment_valor_juntas" />
+
+    <fragment
+        android:id="@+id/navigation_movimentacao"
+        android:name="br.dev.lbromancini.mobile.frankyapp.ui.controle.MovimentacaoFragment"
+        android:label="@string/title_movimentacao"
+        tools:layout="@layout/fragment_item_list" />
+
 </navigation>
