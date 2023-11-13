@@ -23,16 +23,16 @@ public class Movimentacao {
 
     public Movimentacao(JSONObject jp) {
         try {
-            this.setNomePonto((String) jp.get("nomePonto"));
+            this.setNomePonto((String) jp.getString("nomePonto"));
 
-            Integer numero = (int) jp.get("angulo_junta1");
-            this.setAngulo_junta1(numero);
 
-            numero = (int) jp.get("angulo_junta2");
-            this.setAngulo_junta2(numero);
+            this.setAngulo_junta1( jp.getInt("angulo_junta1"));
 
-            numero = (int) jp.get("angulo_junta3");
-            this.setAngulo_junta3(numero);
+
+            this.setAngulo_junta2(jp.getInt("angulo_junta2"));
+
+
+            this.setAngulo_junta3(jp.getInt("angulo_junta3"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
